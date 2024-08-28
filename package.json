@@ -8,7 +8,8 @@
     "start":"node index.js",
     "backend": "nodemon backend/index.js",
     "frontend": "npm run dev --prefix frontend",
-    "dev": "concurrently \"npm run frontend\" \"npm run backend\""
+    "dev": "concurrently \"npm run frontend\" \"npm run backend\"",
+    "build" : "react-scripts build"
   },
   "keywords": [],
   "author": "zainab",
