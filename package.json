@@ -5,11 +5,11 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start":"node index.js",
+    "start": "node index.js",
     "backend": "nodemon backend/index.js",
     "frontend": "npm run dev --prefix frontend",
     "dev": "concurrently \"npm run frontend\" \"npm run backend\"",
-    "build" : "react-scripts build"
+    "build": "npm run build"
   },
   "keywords": [],
   "author": "zainab",
